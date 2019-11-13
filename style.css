@@ -6,7 +6,7 @@
     justify-content: center;
     }
     
-    .all-heads__big {
+.all-heads__big {
         
         margin-top: 130px;
         font-family: "Montserrat_B";
@@ -15,7 +15,7 @@
         text-transform: uppercase;
     }
     
-    .all-heads__small {
+.all-heads__small {
         
         font-family: "Merriweather_R";
         font-size: 18px;
@@ -55,6 +55,70 @@
     margin-right: 0px;
     margin-top: 64px;
 }
+
+
+
+a {
+    text-decoration: none;
+  }
+  
+  nav {
+      font-family: monospace;
+  }
+  
+  ul {
+   
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+  }
+  
+  li {
+      color: #fff;
+      display: block;
+      float: left;
+      padding: 1rem;
+      position: relative;
+      text-decoration: none;
+    transition-duration: 0.5s;
+  }
+    
+  li a {
+    color: rgb(71, 69, 69);
+    font-family: "Montserrat_B";
+    font-size: 15px;
+  }
+  
+  li:hover {
+      background: rgba(73, 88, 98, 0);
+      cursor: pointer;
+  }
+  
+  ul li ul {
+      background: rgba(73, 88, 98, 0);
+      visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+      position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+      left: 0;
+    display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li:focus-within > ul, /* this is the line we add */
+  ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  
+  ul li ul li {
+      clear: both;
+    width: 100%;
+  }
+
 
 .head_nav__element__logo {
     padding: 7px;
@@ -481,13 +545,12 @@
 }
 .location_block__element__sec__map {
     align-self: center;
-    text-align: center;
+    justify-self: center;
 }
 
-.location_block__element__sec__map img{
-    
-    max-width: 455px;
-    max-height: 225px;
+#map {
+    width: 455px;
+    height: 225px;
 }
 
 .followUs_block {
@@ -502,6 +565,7 @@
     font-family: "Raleway_R";
     font-size: 16px;
     margin-top: 40px;
+    color: #ffffff;
 }
 .followUs_block__element__buttons{
     
@@ -526,6 +590,7 @@
     font-family: "Raleway_M";
     font-size: 16px;
     margin-top: 40px;
+    color: #ffffff;
 }
 
 
@@ -581,66 +646,5 @@
     font-family: "Raleway_R";
     src: url("fonts/Raleway_R.ttf");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
