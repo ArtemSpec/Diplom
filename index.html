@@ -3,8 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diplom</title>
+    <link rel="stylesheet" href="normalise.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src=""></script>
+    <script src="https://kit.fontawesome.com/676220f3e9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -37,18 +44,19 @@
                 </div>
             </div>
 
-            <div class="head_text__container all-margins">
+            <div class="head_text__container">
                 <div class="head_text__element">Say Hello to <span>SHOPNO! </span></div>
                 <div class="head_text__element"><span> Agency</span> CORPORATE SHOPNO Theme</div>
+
             </div>
-            <div class="head_button__container all-margins">
+            <div class="head_button__container">
                 <div class="head_button__element__button">CONTACT US</div>
                 <div class="head_button__element_pic"><a href=""><img src="img\Glass.png" alt=""></a></div>
             </div>
         </div>
 
 
-        <div class="aboutUs_block" id="aboutUs">
+        <div class="aboutUs_block " id="aboutUs">
             <div class="aboutUs_text__container all-heads">
                 <div class="aboutUs_text__element all-heads__big">ABOUT US</div>
                 <div class="aboutUs_text__element all-heads__small">Lorem ipsum dolor sit amet event landing template
@@ -77,19 +85,19 @@
         </div>
 
 
-        <div class="featuredWorks_block" id="featuredWorks">
+        <div class="featuredWorks_block flex_container" id="featuredWorks">
             <div class="featuredWorks_text__container all-heads all-margins">
                 <div class="featuredWorks_text__element all-heads__big">featured works</div>
                 <div class="featuredWorks_text__element all-heads__small">Lorem ipsum dolor sit amet event landing
                     template</div>
             </div>
             <div class="featuredWorks_block__container all-margins">
-                <div class="featuredWorks_block__element"><a href=""><img src="img\1.png" alt=""></a></div>
-                <div class="featuredWorks_block__element"><a href=""><img src="img\2.png" alt=""></a></div>
-                <div class="featuredWorks_block__element"><a href=""><img src="img\3.png" alt=""></a></div>
-                <div class="featuredWorks_block__element"><a href=""><img src="img\4.png" alt=""></a></div>
-                <div class="featuredWorks_block__element"><a href=""><img src="img\5.png" alt=""></a></div>
-                <div class="featuredWorks_block__element"><a href=""><img src="img\6.png" alt=""></a></div>
+                <img class="featuredWorks_block__element" src="img\1.png" title="1">
+                <img class="featuredWorks_block__element" src="img\2.png" title="2">
+                <img class="featuredWorks_block__element" src="img\3.png" title="3">
+                <img class="featuredWorks_block__element" src="img\4.png" title="4">
+                <img class="featuredWorks_block__element" src="img\5.png" title="5">
+                <img class="featuredWorks_block__element" src="img\6.png" title="6">
             </div>
         </div>
 
@@ -165,13 +173,14 @@
                 </div>
             </div>
             <div class="smallTeam_block__container all-margins">
-                <div class="smallTeam_block__element"><a href=""><img src="img\11.png" alt=""></a></div>
-                <div class="smallTeam_block__element"><a href=""><img src="img\22.png" alt=""></a></div>
-                <div class="smallTeam_block__element"><a href=""><img src="img\33.png" alt=""></a></div>
-                <div class="smallTeam_block__element"><a href=""><img src="img\44.png" alt=""></a></div>
-                <div class="smallTeam_block__element"><a href=""><img src="img\55.png" alt=""></a></div>
-                <div class="smallTeam_block__element"><a href=""><img src="img\66.png" alt=""></a></div>
+                <img class="featuredWorks_block__element" src="img\11.png" title="1">
+                <img class="featuredWorks_block__element" src="img\22.png" title="2">
+                <img class="featuredWorks_block__element" src="img\33.png" title="3">
+                <img class="featuredWorks_block__element" src="img\44.png" title="4">
+                <img class="featuredWorks_block__element" src="img\55.png" title="5">
+                <img class="featuredWorks_block__element" src="img\66.png" title="6">
             </div>
+
 
         </div>
 
@@ -181,47 +190,82 @@
                 <div class="whatThaySays_text__element all-heads__small">Lorem ipsum dolor sit amet event landing
                     template</div>
             </div>
-            <div class="whatThaySays_block__container all-margins">
-                <div class="whatThaySays_block__elementImg"><a href=""><img src="img\111.png" alt=""></a></div>
-                <div class="whatThaySays_block__elementText">
-                    <div class="whatThaySays_block_head">AL RAYHAN <span>/ UI/UX DESIGNER</span>
+
+            <div class="what-they-says">
+                    <div class="what-they-says-photo-wrap">
+                        <div class="what-they-says-photo-wrap-wrap">
+                        <div class="grey-list"></div>
+                        <div class="slider">
+                        <ul class="slides-photo" id="slides">
+                            <li class="slide showing"><img src="img\11.png"></li>
+                            <li class="slide"><img src="img\22.png"></li>
+                            <li class="slide"><img src="img\33.png"></li>
+                            <li class="slide"><img src="img\44.png"></li>
+                        </ul>
                     </div>
-                    <div class="whatThaySays_block_text">Lorem Ipsum is simply dummy
-                        text of the printing and you standard dummy know that text ever since the 1500s, when an unknown
-                        printer took a galley of type and scrambled it to make a type specimen book.</div>
-                    <div class="whatThaySays_block_stars"><svg width="14" height="13">
-                            <polygon
-                                points="7,0.5 9,4.1 13.6,4.8 10.3,8 11.1,12.6 7,10.5 2.9,12.6 3.6,8 0.5,4.8 4.8,4.1"
-                                fill="rgb(242, 218, 59)" />
-                        </svg>
-                        <svg width="14" height="13">
-                            <polygon
-                                points="7,0.5 9,4.1 13.6,4.8 10.3,8 11.1,12.6 7,10.5 2.9,12.6 3.6,8 0.5,4.8 4.8,4.1"
-                                fill="rgb(242, 218, 59)" />
-                        </svg>
-                        <svg width="14" height="13">
-                            <polygon
-                                points="7,0.5 9,4.1 13.6,4.8 10.3,8 11.1,12.6 7,10.5 2.9,12.6 3.6,8 0.5,4.8 4.8,4.1"
-                                fill="rgb(242, 218, 59)" />
-                        </svg>
-                        <svg width="14" height="13">
-                            <polygon
-                                points="7,0.5 9,4.1 13.6,4.8 10.3,8 11.1,12.6 7,10.5 2.9,12.6 3.6,8 0.5,4.8 4.8,4.1"
-                                fill="rgb(242, 218, 59)" />
-                        </svg>
-                        <svg width="14" height="13">
-                            <polygon
-                                points="7,0.5 9,4.1 13.6,4.8 10.3,8 11.1,12.6 7,10.5 2.9,12.6 3.6,8 0.5,4.8 4.8,4.1"
-                                fill="rgb(242, 218, 59)" />
-                        </svg></div>
+                    <div class="slider-circles" id="circles">
+                        <div class="circle show"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                </div>                    
+                    
+                    <div class="what-they-says-text">
+                        <div class="slider-cards" id="slider-cards">
+                            <div class="card showed">
+                                <h4 class="card-title">AL RAYHAN<span class="card-title-cursive"> / UI Designer</span></h4>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and you 
+                                        standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <div class="card-stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="card">
+                                    <h4 class="card-title">HOL RDIP<span class="card-title-cursive"> / JS Developer</span></h4>
+                                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and you 
+                                            standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <div class="card-stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            
+                                    </div>
+                                </div>
+                                <div class="card">
+                                        <h4 class="card-title">MANKEY JOBER<span class="card-title-cursive"> / QA Engeneer</span></h4>
+                                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and you 
+                                                standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                        <div class="card-stars">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                
+                                        </div>
+                                    </div>
+
+                        </div>
+                        <div class="cards-control">
+                            <div class="buttom-previous" id="previous">
+                                    <i class="fas fa-angle-left"></i>
+                            </div>
+                            <div class="buttom-next" id="next">
+                                    <i class="fas fa-angle-right"></i>
+                            </div>
+                            
+
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
-            <div class="whatThaySays_block__strels all-margins">
-                <div class="whatThaySays__strel"><a href="" class="whatThaySays__button left" title="<">
-                        < </a> </div> <div class="whatThaySays__strel"><a href="" class="whatThaySays__button right"
-                                title=">"> > </a>
-                </div>
-            </div>
+
         </div>
         <div class="sponsors_block">
             <div class="sponsors_block__element"><a href=""><img src="img/sponsors.png" alt=""></a></div>
@@ -230,14 +274,26 @@
         <div class="location_block">
 
             <div class="location_block__element all-margins ">
-                <div class="location_block__element__first">
-                    <div class="location_block__element__first__name location-margin location-line">Name*</div>
-                    <div class="location_block__element__first__subject location-margin location-line">Subject*</div>
-                    <div class="location_block__element__first__email location-margin location-line">E-mail*</div>
-                    <div class="location_block__element__first__message location-margin location-line">Message*</div>
-                    <button class="location_block__element__first__button location-margin location-button">SEND
-                        MESSAGE</button>
-                </div>
+                    <form  class="location_block__element__fir" method="post" name="message-form" id="message-form">
+                            <div class="element-form">
+                                <h4 class="title-torm">Name*</h4>
+                                    <input class="input-form" type="text" name="author" id="author" value="" size="40" />
+                            </div>
+                            <div class="element-form">
+                                    <h4 class="title-torm">Subject*</h4>
+                            <input class="input-form" type="text" name="subject" id="subject" value="" size="40" />
+                            </div>
+                            <div class="element-form">
+                                    <h4 class="title-torm">E-mail*</h4>
+                        <input class="input-form" type="text" name="email" id="email" value="" size="40" />
+                            </div>
+                            <div class="element-form message">
+                                    <h4 class="title-torm">Message*</h4>
+                            <textarea class="input-form" name="message" id="message" cols="20" rows="5"> </textarea>
+                            </div>
+                            <input class="button-send" name="submit" type="submit" id="submit" value="Send message" />
+                        
+                            </form>
                 <div class="location_block__element__sec">
                     <div class="location_block__element__sec__text">Adress line 1 </br> Adress line 2 </br> Phone: +548
                         945645 </br> Fax: +456456 54546 </br></div>
@@ -264,6 +320,8 @@
 
 
 
+
+
     <script type="text/javascript">
 
         var map;
@@ -275,6 +333,8 @@
             });
         }
     </script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="script.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
 </body>
 
